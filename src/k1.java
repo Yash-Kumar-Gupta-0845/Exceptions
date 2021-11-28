@@ -1,3 +1,8 @@
+/*Write a program to take care of NumberFormatException, if the user enters values other than integer, 
+for calculating the average marks of 2 students. The name of the students and the marks in 3 subject 
+are taken from the user while excuting the program. 
+In the same program write your own Exception classes to take care of Negative values and values out of 
+range(i.e. other than in the range of 0-100).*/
 import java.util.*;
 class InvalidNumberExceptions extends Exception{
     public InvalidNumberExceptions(String s){
