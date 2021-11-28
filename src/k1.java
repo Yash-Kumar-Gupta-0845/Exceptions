@@ -14,7 +14,7 @@ class abc{
         if (a<0){
             throw new InvalidNumberExceptions("Marks never be negative. ");
         } else if (a > 100) {
-            throw new InvalidNumberExceptions("Marks never be greater than zero. ");
+            throw new InvalidNumberExceptions("Marks never be greater than hundred. ");
         }
     }
 }
@@ -49,7 +49,7 @@ public class k1 {
             try {
                 System.out.println("Numbers "+(i+1));
                 arr2[i] = Integer.parseInt(sc.next());
-                abc.validateMarks(arr1[i]);
+                abc.validateMarks(arr2[i]);
                 s2+=arr2[i];
 
             }
